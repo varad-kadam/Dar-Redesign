@@ -1,0 +1,58 @@
+@font-face {
+    font-family: AktivGrotesk;
+    src: url(assets/fonts/AktivGrotesk/TTF/AktivGrotesk-Regular.ttf);
+  }
+
+h1 { font-family: AktiveGrotesk; color: #35FFE5}
+h2 { font-family: AktiveGrotesk; color: #35FFE5}
+h3 { font-family: AktiveGrotesk; color: white;}
+h4 { font-family: AktiveGrotesk; color: white;}
+h5 { font-family: AktiveGrotesk; color: white;}
+p { font-family: Helvetica; font-size: large; color: white;} 
+
+hr {
+    height: 12px;
+    background: white;
+}
+
+body {
+    background-color: #212529;
+}
+/* Modify the background color */
+ 
+.navbar-custom {
+    background-color: #1f1f1f;
+}
+/* Modify brand and text color */
+ 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: teal;
+}
+
+.components-margin-xlarge {
+    position: relative;
+    padding-top: 500px;
+    margin-top: auto;
+}
+
+.components-margin-large {
+    position: relative;
+    padding-top: 300px;
+    margin-top: auto;
+}
+
+.components-margin {
+    position: relative;
+    padding-top: 200px;
+}
+
+.components-margin-small {
+    position: relative;
+    padding-top: 100px;
+}
+
+.components-margin-xsmall {
+    position: relative;
+    padding-top: 20px;
+}
